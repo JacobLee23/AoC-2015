@@ -1,0 +1,42 @@
+# {year} Day {day}
+
+import typing
+
+
+# Environment constants
+DATA_PATH = {{
+    "puzzle": "{puzzle_data_path}",
+    "test": "{test_data_path}"
+}}
+DATA = {{}}
+
+for key, value in DATA_PATH.items():
+    with open(value, "r", encoding="utf-8") as file:
+        data = file.readlines()
+    DATA.setdefault(key, data)
+
+
+# Puzzle constants
+
+
+# Part 1 solution
+def part1(arr: typing.List[str] = DATA) -> typing.Any:
+    pass
+
+
+# Part 2 solution
+def part2(arr: typing.List[str] = DATA) -> typing.Any:
+    pass
+
+
+def main():
+    print("Test data:")
+    print(f"\tPart 1:\t{{part1(DATA['test'])}}")
+    print(f"\tPart 2:\t{{part2(DATA['test'])}}")
+    print("Puzzle data:")
+    print(f"\tPart 1:\t{{part1(DATA['puzzle'])}}")
+    print(f"\tPart 2:\t{{part2(DATA['puzzle'])}}")
+
+
+if __name__ == "__main__":
+    main()
