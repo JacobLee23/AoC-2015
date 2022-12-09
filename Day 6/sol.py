@@ -1,4 +1,4 @@
-# 2022 Day 5
+# 2022 Day 6
 
 import re
 import typing
