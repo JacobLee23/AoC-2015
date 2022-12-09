@@ -46,7 +46,11 @@ def net_value(order: typing.Tuple[str], d: collections.defaultdict) -> int:
 
 
 # Part 1 solution
+<<<<<<< HEAD
 def part1(arr: typing.List[str]) -> int:
+=======
+def part1(arr: typing.List[str]) -> typing.Any:
+>>>>>>> ddf3e89a59dc68b2537530c4bcb5f5320c8deb7c
     d = parse_data(arr)
     names = list({x[0] for x in d})
 
@@ -57,7 +61,11 @@ def part1(arr: typing.List[str]) -> int:
 
 
 # Part 2 solution
+<<<<<<< HEAD
 def part2(arr: typing.List[str]) -> int:
+=======
+def part2(arr: typing.List[str]) -> typing.Any:
+>>>>>>> ddf3e89a59dc68b2537530c4bcb5f5320c8deb7c
     d = parse_data(arr)
     names = list({x[0] for x in d})
     for name in names:
