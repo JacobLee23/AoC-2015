@@ -21,12 +21,12 @@ DIRECTION = {"(": 1, ")": -1}
 
 
 # Part 1 solution
-def part1(arr: typing.List[str] = DATA) -> typing.Any:
+def part1(arr: str) -> typing.Any:
     return sum(DIRECTION[x] for x in arr)
 
 
 # Part 2 solution
-def part2(arr: typing.List[str] = DATA) -> typing.Any:
+def part2(arr: str) -> typing.Any:
     position = [DIRECTION[x] for x in arr]
     for i in range(1, len(position)):
         position[i] += position[i - 1]

@@ -21,14 +21,14 @@ for key, value in DATA_PATH.items():
 
 
 # Part 1 solution
-def part1(arr: typing.List[str] = DATA) -> typing.Any:
+def part1(arr: typing.List[typing.List[str]]) -> typing.Any:
     return sum(
         sum(2 * x[i] * x[i - 1] for i in range(len(x))) + sorted(x)[0] * sorted(x)[1] for x in arr
     )
 
 
 # Part 2 solution
-def part2(arr: typing.List[str] = DATA) -> typing.Any:
+def part2(arr: typing.List[typing.List[str]]) -> typing.Any:
     return sum(
         2 * (sorted(x)[0] + sorted(x)[1]) + (x[0] * x[1] * x[2]) for x in arr
     )

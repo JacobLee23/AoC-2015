@@ -20,12 +20,12 @@ for key, value in DATA_PATH.items():
 
 
 # Part 1 solution
-def part1(arr: typing.List[str] = DATA) -> typing.Any:
+def part1(arr: typing.List[str]) -> typing.Any:
     pass
 
 
 # Part 2 solution
-def part2(arr: typing.List[str] = DATA) -> typing.Any:
+def part2(arr: typing.List[str]) -> typing.Any:
     pass
 
 

@@ -26,7 +26,7 @@ DIRECTIONS = {
 
 
 # Part 1 solution
-def part1(arr: typing.List[str] = DATA) -> typing.Any:
+def part1(arr: str) -> typing.Any:
     positions = [(0, 0)]
 
     for x in arr:
@@ -36,7 +36,7 @@ def part1(arr: typing.List[str] = DATA) -> typing.Any:
 
 
 # Part 2 solution
-def part2(arr: typing.List[str] = DATA) -> typing.Any:
+def part2(arr: str) -> typing.Any:
     positions = [(0, 0), (0, 0)]
 
     for x in arr:
